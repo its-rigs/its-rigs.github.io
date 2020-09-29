@@ -3,12 +3,18 @@ layout: recipe
 title: Meatball black bean chilli
 featured_image: /assets/images/meatball-black-bean-chilli-4722ed0.jpg
 
-categories: mexican
+categories: 
+  - Mexican
+
+tags:
+  - Lunch
+  - Dinner
 
 recipe:
   serving-size: Serves 4
   prep-time: 10 mins
   cook-time: 30 mins
+
   ingredients_markdown: |-
     * 2 tbsp olive oil
     * 12 beef meatballs
@@ -22,6 +28,7 @@ recipe:
     * 2 x 400g canschopped tomatoes
     * 2 x 400g cans black beans, drained and rinsed
     * cooked rice, to serve
+
   directions_markdown: |-
     1. Heat the oil in a large flameproof casserole dish over a
       medium heat. Fry the meatballs for 5 mins until browned, then transfer to a plate with a slotted

@@ -1,14 +1,23 @@
 ---
-date: 2017-01-07
+layout: recipe
+
 title: Chocolate Cupcakes
+
 categories:
   - Cupcakes
   - Cakes
+
+tags:
+  - Desert
+  - Sweet
+
 featured_image: https://source.unsplash.com/qJ0zGkrE1Zg/1560x940
+
 recipe:
-  servings: 12 cupcakes
-  prep: 5 minutes
-  cook: 25 minutes
+  serving-size: 12 cupcakes
+  prep-time: 5 minutes
+  cook-time: 25 minutes
+
   ingredients_markdown: |-
     **Cupcakes**
 
@@ -32,6 +41,7 @@ recipe:
     * 1 cup of powdered sugar
     * 1/4 cup milk
     * 1 tablespoon butter
+
   directions_markdown: |-
     **Cupcakes**
 

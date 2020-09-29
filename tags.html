@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="container">
+  {% assign tags =  site.recipes | map: 'tags' | uniq %}
+  {% for tag in tags %}
+  <h3>{{ tag }}</h3>
+  <ul>
+    {% for recipe in site.recipes %}
+    {% if recipe.tags contains tag %}
+    <li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>
