@@ -1,5 +1,12 @@
 ---
 layout: default
-title: Home
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+<div class="container">
+  <ul>
+    {% for recipe in site.recipes %}
+    <li>
+      <a href="{{ recipe.url }}">{{ recipe.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

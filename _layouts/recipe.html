@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<section id="overview">
+  <div class="container">
+    <div class="row">
+      <div class="one-third column">
+        <img class="recipe-image" src="{{ page.featured_image }}" title="{{ page.title }}">
+      </div>
+
+      <div class="two-thirds column">
+        <h1>{{page.title}}</h1>
+
+        <ul class="recipe-info">
+          <li title="Servings">{% include recipe-icon.html icon="quantity" %}<span>{{ page.recipe.serving-size }}</span></li>
+          <li title="Prep Time">{% include recipe-icon.html icon="time" %}<span>{{ page.recipe.prep-time }}</span></li>
+          <li title="Cook Time">{% include recipe-icon.html icon="cook" %}<span>{{ page.recipe.cook-time }}</span></li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="recipe">
+  <div class="container">
+    <div class="row">
+      <section id="ingredients" class="one-third column">
+        <h3>Ingredients</h3>
+
+        {{ page.recipe.ingredients_markdown | markdownify }}
+
+      </section>
+      <section id="method" class="two-thirds column">
+        <h3>Method</h3>
+
+        {{ page.recipe.directions_markdown | markdownify }}
+      </section>
+    </div>
+  </div>
+</section>

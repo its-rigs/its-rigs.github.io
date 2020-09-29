@@ -1,0 +1,9 @@
+title: Juke's Kitchen
+timezone: Etc/UTC
+
+collections:
+  recipes:
+    output: true
+
+exclude:
+  - batect*
