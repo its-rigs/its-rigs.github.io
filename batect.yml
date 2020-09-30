@@ -1,5 +1,3 @@
-project_name: utalise-site
-
 containers:
   jekyll-env:
     image: jekyll/jekyll:4
